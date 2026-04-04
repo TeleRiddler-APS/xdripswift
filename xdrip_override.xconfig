@@ -1,0 +1,4 @@
+BUNDLE_ID = com.teleriddler.xdrip4ios
+DEVELOPMENT_TEAM = SH8DA9ZPJP
+PRODUCT_NAME = xDrip4iOS
+CODE_SIGN_STYLE = Automatic

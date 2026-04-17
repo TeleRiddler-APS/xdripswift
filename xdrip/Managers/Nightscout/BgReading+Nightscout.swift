@@ -8,7 +8,7 @@ extension BgReading {
         return  [
             "_id": id,
             "device": deviceName ?? "",
-            "date": timeStamp.toMillisecondsAsInt64(),
+            "date": Int64(timeStamp.timeIntervalSince1970 * 1000),
             "dateString": timeStamp.ISOStringFromDate(reuseDateFormatter: reuseDateFormatter),
             "type": "sgv",
             "sgv": Int(calculatedValue.round(toDecimalPlaces: 0)),
